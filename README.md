@@ -1,11 +1,14 @@
 Given the  [following](https://www.formula1.com/sp/static/f1/2018/live/Baku/Practice2/all.js) data source.
 
 Driver data is sent in the following CSV format.
-`{`
-  `"O": ",119.745,RYYWWWWWWW,4.1,19,37.74,48.409,33.596,,,209,183,,269,,0,"`
- `}`
+
+```
+{
+  "O": ",119.745,RYYWWWWWWW,4.1,19,37.74,48.409,33.596,,,209,183,,269,,0,"
+}
+```
  
-Legend to this dat source:
+Legend to this data source:
 
 | Number | Data |
 | :--- | --- |

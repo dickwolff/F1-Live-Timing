@@ -29,3 +29,12 @@ Legend to this data source:
 | 14 (?) | _Unknown_ |
 | 15 (0) | _Unknown_  |
 | 16 (?) | _Unknown_ |
+
+-----------------------
+
+Another format in which driver data is presented:
+```
+{
+  "B": ",105.288,6,19,36.623,-1,16,42.608,-1,18,25.634,-1,19,221,,10,234,,8,332,,17,315,,16,,,,"
+}
+```

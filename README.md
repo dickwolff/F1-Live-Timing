@@ -3,6 +3,8 @@ Given the  [following](https://www.formula1.com/sp/static/f1/2018/live/Baku/Prac
 Driver data is sent in the following CSV format.
 
 ```
+Data for driver 2 VAN (#19 in results)
+
 {
   "O": ",119.745,RYYWWWWWWW,4.1,19,37.74,48.409,33.596,,,209,183,,269,,0,"
 }
@@ -32,9 +34,66 @@ Legend to this data source:
 
 -----------------------
 
-Another format in which driver data is presented:
+Another format in which driver data is presented. Presumably this is represents the fastest times:
 ```
+Data for driver 3 RIC (#1 in results)
+
 {
-  "B": ",105.288,6,19,36.623,-1,16,42.608,-1,18,25.634,-1,19,221,,10,234,,8,332,,17,315,,16,,,,"
+  "B": ",102.795,16,1,36.311,-1,3,41.33,-1,1,24.841,-1,1,219,,14,234,,9,347,,1,323,,6,,,,"
 }
 ```
+
+Legend to this data source:
+
+| Number | Data |
+| :--- | --- |
+| 0 (?) | _Unknown_ |
+| 1 (102.795) | Total lap time |
+| 2 (16) | _Unknown_ |
+| 3 (1) | Position on leaderboard |
+| 4 (36.311) | Sector 1 time |
+| 5 (-1) | _Unknown_  |
+| 6 (3) | Position on sector 1 leaderboard |
+| 7 (41.33) | Sector 2 time |
+| 8 (-1) | _Unknown_ |
+| 9 (1) | Position on sector 2 leaderboard |
+| 10 (24.841) | Sector 3 time |
+| 11 (-1) | _Unknown_ |
+| 12 (1) | Position on sector 3 leaderboard |
+| 13 (219) | _Unknown_ |
+| 14 (?) | _Unknown_ |
+| 15 (14) | _Unknown_  |
+| 16 (234) | _Unknown_ |
+| 17 (?) | _Unknown_ |
+| 18 (9) | _Unknown_ |
+| 19 (347) | _Unknown_ |
+| 20 (?) | _Unknown_ |
+| 21 (1) | _Unknown_ |
+| 22 (323) | _Unknown_ |
+| 23 (?) | _Unknown_ |
+| 24 (6) | _Unknown_ |
+| 25 (?) | _Unknown_ |
+| 26 (?) | _Unknown_ |
+| 27 (?) | _Unknown_ |
+| 28 (?) | _Unknown_ |
+
+------------------
+
+Data source for tyre information:
+```
+Data for driver 7 RAI (#2 in results)
+
+{
+  "G": "33,0.069,,,"
+}
+```
+
+Legend to this data source:
+
+| Number | Data |
+| :--- | --- |
+| 0 (33) | Number of laps driven |
+| 1 (0.069) | Gap to leader (on same tyre?) |
+| 2 (?) | _Unknown_? |
+| 3 (?) | _Unknown_ |
+| 4 (?) | _Unknown_  |

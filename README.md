@@ -51,7 +51,7 @@ Legend to this data source:
 
 -----------------------
 
-## Datasource type 'b'
+## Datasource type `b`
 
 Another format in which driver data is presented. Presumably this is represents the fastest times:
 ```

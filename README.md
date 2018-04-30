@@ -16,7 +16,7 @@ There are different datasources that are being transmitted through the response 
 | `f` | _Unknown_ |
 | `positioning` | _Unknown_ |
 
-Driver data is sent in the following CSV format.
+## Datasource type `o`
 
 ```
 Data for driver 2 VAN (#19 in results)
@@ -49,6 +49,8 @@ Legend to this data source:
 | 16 (?) | _Unknown_ |
 
 -----------------------
+
+## Datasource type 'b'
 
 Another format in which driver data is presented. Presumably this is represents the fastest times:
 ```
@@ -95,7 +97,9 @@ Legend to this data source:
 
 ------------------
 
-Data source for tyre information:
+## Datasource type `g`
+
+Datasource for tyre information:
 ```
 Data for driver 7 RAI (#2 in results)
 

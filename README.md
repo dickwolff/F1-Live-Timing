@@ -1,5 +1,21 @@
 Given the  [following](https://www.formula1.com/sp/static/f1/2018/live/Baku/Practice2/all.js) data source.
 
+There are different datasources that are being transmitted through the response data. These are transmitted in format: `SP._input'{type}',{JSON formatted CSV data}');`. One or more of the datasources can be sent in one message.
+
+| Type | Definition |
+| :--- | :--- |
+| `sq` | _Unknown_ |
+| `cpd` | _Unknown_ |
+| `b` | Driver best times |
+| `o` | Driver times |
+| `x` | _Unknown_ |
+| `c` | Commentary in English, German and French |
+| `init` | Containing data about which drivers are to drive and which team they drive for |
+| `au` | _Unknown_ |
+| `cp` | _Unknown_ |
+| `f` | _Unknown_ |
+| `positioning` | _Unknown_ |
+
 Driver data is sent in the following CSV format.
 
 ```

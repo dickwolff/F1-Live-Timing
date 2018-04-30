@@ -1,5 +1,6 @@
 Given the  [following](https://www.formula1.com/sp/static/f1/2018/live/Baku/Practice2/all.js) data source.
 
+## Introduction
 There are different datasources that are being transmitted through the response data. These are transmitted in format: `SP._input'{type}',{JSON formatted CSV data}');`. One or more of the datasources can be sent in one message.
 
 | Type | Definition |

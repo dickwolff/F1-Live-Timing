@@ -18,7 +18,7 @@ There are different datasources that are being transmitted through the response 
 | `positioning` | _Unknown_ |
 
 ## Correlating data to drivers
-Intially the driver data is sent using datasource type `init`. Following this initial push, driver data is correlated by order. So when `init` pushes drivers in the order `VAN, RIC, VET`, any other datasource containing data that is driver related will push them in the same order. So when datasource `o` pushes sector times, the first index belongs to driver `VAN`, the second to driver `RIC`, etc.
+Initially the driver data is sent using datasource type `init`. Following this initial push, driver data is correlated by order. So when `init` pushes drivers in the order `VAN, RIC, VET`, any other datasource containing data that is driver related will push them in the same order. So when datasource `o` pushes sector times, the first index belongs to driver `VAN`, the second to driver `RIC`, etc.
 
 ## Datasource type `o`
 

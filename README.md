@@ -15,7 +15,7 @@ There are different datasources that are being transmitted through the response 
 | `au` | _Unknown_ |
 | `cp` | _Unknown_ |
 | `f` | _Unknown_ |
-| `positioning` | _Unknown_ |
+| `positioning` | Driver position on track |
 
 ## Correlating data to drivers
 Initially the driver data is sent using datasource type `init`. Following this initial push, driver data is correlated by order. So when `init` pushes drivers in the order `VAN, RIC, VET`, any other datasource containing data that is driver related will push them in the same order. So when datasource `o` pushes sector times, the first index belongs to driver `VAN`, the second to driver `RIC`, etc.
@@ -118,6 +118,27 @@ Legend to this data source:
 | :--- | --- |
 | 0 (33) | Number of laps driven |
 | 1 (0.069) | Gap to leader (on same tyre?) |
-| 2 (?) | _Unknown_? |
+| 2 (?) | _Unknown_ |
 | 3 (?) | _Unknown_ |
 | 4 (?) | _Unknown_  |
+
+------------------
+
+## Datasource type `ap`
+
+Datasource for driver position:
+```
+Data for driver 3 RIC.
+
+{
+  "AP":"X-186724,Y-154603,"
+}
+```
+
+Legend to this data source:
+
+| Number | Data |
+| :--- | --- |
+| 0 (X-186724) | X-position on the map |
+| 1 (Y-154603) | Y-position on the map |
+| 2 (?) | _Unknown_ |

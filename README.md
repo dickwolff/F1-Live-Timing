@@ -142,3 +142,6 @@ Legend to this data source:
 | 0 (X-186724) | X-position on the map |
 | 1 (Y-154603) | Y-position on the map |
 | 2 (?) | _Unknown_ |
+
+
+ Data set `"AP": "X-2147483648,Y-2147483648,"` means the car is in the pits at the moment of receiving the data.

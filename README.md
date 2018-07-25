@@ -8,7 +8,7 @@ There are different datasources that are being transmitted through the response 
 | `sq` | _Unknown_ |
 | `cpd` | _Unknown_ |
 | `b` | Driver best times |
-| `o` | Driver times |
+| `o` | Driver current/live times |
 | `x` | _Unknown_ |
 | `c` | Commentary in English, German and French |
 | `init` | Containing data about which drivers are to drive and which team they drive for |
